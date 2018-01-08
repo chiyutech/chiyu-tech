@@ -1,0 +1,112 @@
+{
+    "headermenus": [
+        {
+            "id": "admin",
+            "menus": [
+                {
+                    "id": "app.systemmgt",
+                    "name": "系统管理"
+                },
+                {
+                    "id": "app.usercenter",
+                    "name": "用户中心"
+                },
+                {
+                    "id": "app.foo",
+                    "name": "模块Foo"
+                },
+                {
+                    "id": "app.bar",
+                    "name": "模块Bar"
+                }
+            ]
+        },
+        {
+            "id": "zjh",
+            "menus": [
+                {
+                    "id": "app.foo",
+                    "name": "模块Foo"
+                }
+            ]
+        }
+    ],
+    "sidebarmenus": [
+        {
+            "id": "app.systemmgt",
+            "name": "系统管理",
+            "menuItems": [
+                {
+                    "id": "app.systemmgt.usermgt",
+                    "name": "用户管理"
+                },
+                {
+                    "id": "app.systemmgt.rolemgt",
+                    "name": "角色管理"
+                },
+                {
+                    "id": "app.systemmgt.menumgt",
+                    "name": "菜单管理"
+                },
+                {
+                    "id": "app.systemmgt.accountmgt",
+                    "name": "账号管理"
+                }
+            ]
+        },
+        {
+            "id": "app.usercenter",
+            "name": "用户中心",
+            "menuItems": [
+                {
+                    "id": "app.usercenter.usermgt",
+                    "name": "用户管理"
+                },
+                {
+                    "id": "app.usercenter.groupmgt",
+                    "name": "用户组管理"
+                },
+                {
+                    "id": "app.usercenter.clienttmgt",
+                    "name": "客户端管理"
+                },
+                {
+                    "id": "app.usercenter.resourceservicemgt",
+                    "name": "资源服务管理"
+                }
+            ]
+        },
+        {
+            "id": "app.dashboard",
+            "name": "仪表盘"
+        },
+        {
+            "id": "app.foo",
+            "name": "菜单Foo",
+            "menuItems": [
+                {
+                    "id": "app.foo.foo1",
+                    "name": "Foo1"
+                },
+                {
+                    "id": "app.foo.foo2",
+                    "name": "Foo2"
+                }
+            ]
+        },
+        {
+            "id": "app.bar",
+            "name": "菜单Bar",
+            "menuItems": [
+                {
+                    "id": "app.bar.bar1",
+                    "name": "Bar1"
+                },
+                {
+                    "id": "app.bar.bar2",
+                    "name": "Bar2"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "services": [
+        {
+            "id": "1234",
+            "clientName": "manager",
+            "serviceName": "获取用户更多信息",
+            "serviceScope": "manager.open_userinfo_more.get",
+            "serviceURI": "/open/userinfo/more",
+            "serviceDescription": "该接口会返回更多的用户信息，比如身份证号，手机号等",
+            "status": "1"
+        },
+        {
+            "id": "4321",
+            "clientName": "manager",
+            "serviceName": "获取用户基本信息",
+            "serviceScope": "manager.open_userinfo_base.get",
+            "serviceURI": "/open/userinfo/base",
+            "serviceDescription": "该接口会返回基本的用户信息，比如用户名等",
+            "status": "1"
+        }
+    ]
+}

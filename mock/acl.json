@@ -1,0 +1,40 @@
+{
+    "acl": [
+        {
+            "id": "zjh",
+            "states": [
+                "appSimple.logout",
+                "app.dashboard",
+                "app.foo",
+                "app.foo.foo1",
+                "app.foo.foo2",
+                "app.foo.foo2.detail"
+            ]
+        },
+        {
+            "id": "admin",
+            "states": [
+                "appSimple.logout",
+                "app.dashboard",
+                "app.foo",
+                "app.foo.foo1",
+                "app.foo.foo2",
+                "app.foo.foo2.detail",
+                "app.bar",
+                "app.bar.bar1",
+                "app.bar.bar2",
+                "app.usercenter",
+                "app.usercenter.usermgt",
+                "app.usercenter.groupmgt",
+                "app.usercenter.clienttmgt",
+                "app.usercenter.resourceservicemgt",
+                "app.systemmgt",
+                "app.systemmgt.usermgt",
+                "app.systemmgt.rolemgt",
+                "app.systemmgt.menumgt",
+                "app.systemmgt.accountmgt"
+
+            ]
+        }
+    ]
+}
